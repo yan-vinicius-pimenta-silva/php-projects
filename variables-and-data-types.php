@@ -36,4 +36,10 @@
 
   echo"Online status: {$online}<br>";
 
+  $total = null; //null means no value
+
+  echo "You have ordered {$quantity} x {$food}s <br>";
+  $total = $quantity * $price;
+  echo"Your total is: \${$total}";
+
 ?>
