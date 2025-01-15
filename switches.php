@@ -26,7 +26,7 @@
   
  
 $grade = "A"; 
-  
+
 switch($grade){
   case "A":
     echo"You did great";
@@ -47,7 +47,10 @@ switch($grade){
   case "F":
     echo"You failed";
   break;
-  
+
+  default:
+    echo"{$grade} does not exist<br>";
+  break;
 }
 
 
