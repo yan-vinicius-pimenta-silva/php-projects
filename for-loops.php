@@ -27,7 +27,6 @@
     <label>Enter a number to count to: </label>
     <input type="text" name="counter">
     <input type="submit" value="start">
-    <input type="text" name="">
 
   </form>
 
@@ -39,5 +38,9 @@
   // for loop = repeat some code a certain # of times
 
   $counter = $_POST["counter"];  
+
+  for($i = $counter; $i > 0; $i--) {
+    echo $i . "<br>";
+  }  
 
 ?>
