@@ -5,21 +5,31 @@
   //            ex. add() subtract() multiply() divide()
 
 
- $name = null;
- $age = null;
+//  $name = null;
+//  $age = null;
 
-  function happy_birthday($name,$age){
-    echo"Happy Birthday dear {$name}!<br>";
-    echo"Happy Birthday to you!<br>";
-    echo"Happy Birthday dear you!<br>";
-    echo"You are {$age} years old.<br> <br>";
+//   function happy_birthday($name,$age){
+//     echo"Happy Birthday dear {$name}!<br>";
+//     echo"Happy Birthday to you!<br>";
+//     echo"Happy Birthday dear you!<br>";
+//     echo"You are {$age} years old.<br> <br>";
 
-    return  
+//     return  
     
-  }
+//   }
 
-  happy_birthday("Yan",23);
-  happy_birthday("Yan",23);
-  happy_birthday("Yan",23);
+//   happy_birthday("Yan",23);
+//   happy_birthday("Yan",23);
+//   happy_birthday("Yan",23);
 
- 
+function hypotenuse(float $a, float $b){
+
+  $c = sqrt($a ** 2 + $b ** 2);
+  
+  return $c;
+
+}
+
+echo hypotenuse(4, 5);
+
+?>
