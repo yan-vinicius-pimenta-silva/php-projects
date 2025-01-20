@@ -18,6 +18,8 @@
 </body>
 
 </html>
-<?php 
+<?php
+ 
   include("footer.html");
+
 ?>
