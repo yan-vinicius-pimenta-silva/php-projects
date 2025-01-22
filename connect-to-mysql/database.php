@@ -22,10 +22,10 @@ catch(mysqli_sql_exception){
 
 
 if($conn){
-  echo"You are connected";
+  echo"You are connected!<br>";
 }
 else{
-  echo"Could not connect";
+  echo"Could not connect!";
 }
 
 ?>
